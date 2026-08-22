@@ -7,7 +7,8 @@ static int min_width = 500;                    /* minimum width when centered */
 static const float menu_height_ratio = 4.0f;  /* This is the ratio used in the original calculation */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono Nerd Font:size=13"
+	"JetBrainsMono Nerd Font:size=13",
+    "Noto Kufi Arabis:size=13"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 #include "/home/isarker/.cache/wal/colors-wal-dmenu.h"
